@@ -2,12 +2,16 @@ import RoboComponents.*;
 
 public class RoboData
 {
-    RoboPlayer[] RPlayers=new RoboPlayer[11];
+    private RoboPlayer[] RPlayers=new RoboPlayer[11];
+    private GameBoard GBoard;
+    private StartBoard stBoard;
+    private CheckPoints checkP;
+    private DamageCards dmCard;
     public RoboData(int nrOfPlayers)
     {
-        GameBoard GBoard=new GameBoard();
+        GBoard=new GameBoard();
 
-        StartBoard stBoard=new StartBoard();
+        stBoard=new StartBoard();
 
         for (int i = 0; i < nrOfPlayers; i++)
         {
@@ -15,9 +19,9 @@ public class RoboData
 
         }
 
-        CheckPoints checkP=new CheckPoints();
+        checkP=new CheckPoints();
 
-        DamageCards dmCard=new DamageCards();
+        dmCard=new DamageCards();
 
 
     }

@@ -2,7 +2,7 @@
 
 public class Functionality
 {
-    RoboData RData;
+   private RoboData RData;
     public Functionality(int nrOfPlayers)
     {
         RData=new RoboData(nrOfPlayers);

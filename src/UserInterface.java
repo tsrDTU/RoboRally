@@ -1,6 +1,6 @@
 public class UserInterface
 {
-    Functionality func;
+    private Functionality func;
 
     public UserInterface()
     {
