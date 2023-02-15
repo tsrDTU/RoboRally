@@ -19,6 +19,7 @@ public class RoboData
 
         DamageCards dmCard=new DamageCards();
 
+
     }
 
     public void movePlayer(int plNr,int posX,int posY)
