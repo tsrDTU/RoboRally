@@ -8,6 +8,7 @@ public class Functionality
         RData=new RoboData(nrOfPlayers);
     }
 
+
     public void movePlayer(int plNr, int posX, int posY)
     {
         RData.movePlayer(plNr,posX,posY);
