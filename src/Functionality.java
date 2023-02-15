@@ -1,6 +1,6 @@
 //import RoboData;
 
-public class Functionality
+public class Functionality implements IUserInterface
 {
    private RoboData RData;
     public Functionality(int nrOfPlayers)

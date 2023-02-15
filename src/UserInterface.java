@@ -1,5 +1,4 @@
-public class UserInterface
-{
+public class UserInterface implements IUserInterface {
     private Functionality func;
 
     public UserInterface()
